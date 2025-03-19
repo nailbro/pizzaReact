@@ -1,9 +1,12 @@
-import React from 'react'
+import Home from '../pages/Home/Home'
+import Header from '../widgets/Header/Header'
+import './style/global.scss'
 
 const App = () => {
   return (
     <>
-      <h1>hello world</h1>
+     <Header/>
+     <Home/>
     </>
   )
 }
