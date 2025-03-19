@@ -1,0 +1,15 @@
+.header{
+    &__top{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__bottom{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        ul{
+            display: flex;
+            column-gap: 20px;
+        }
+    }
+}
