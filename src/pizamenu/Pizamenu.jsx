@@ -17,7 +17,7 @@ const Pizamenu = () => {
    <Menu/>
    <Menu/>
    </div>
-   <h2 className='past'>Паста</h2>
+   <h2 className='past2'>Паста</h2>
    <div className='menas__wrapper'>
    <Menu/>
    <Menu/>
