@@ -1,7 +1,20 @@
 .header{
     &__top{
+        margin-top: 22px;
         display: flex;
         justify-content: space-between;
+        button{
+            width: 180px;
+            height: 42px;
+border-radius: 28px;
+border: none;
+        }
+        h3{
+            color: #F7D22D;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 100%;
+            }
     }
     &__bottom{
         margin-top: 20px;
@@ -10,6 +23,15 @@
         ul{
             display: flex;
             column-gap: 20px;
+        }
+        button{
+            width: 160px;
+            background: #F7D22D;
+            border-radius: 8px;
+            border: none;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 28px;
         }
     }
 }
